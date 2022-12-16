@@ -12,20 +12,10 @@ SLAYER5 = SLAYER[5]
 
 SLAYERLIST = [SLAYER0,SLAYER1,SLAYER2,SLAYER3,SLAYER4,SLAYER5]
 LAYERLIST = [SLAYER5,SLAYER0,SLAYER1,SLAYER2,SLAYER3,SLAYER4]
-
 SLAYERstring = SLAYER0+SLAYER1+SLAYER2+SLAYER3+SLAYER4+SLAYER5
 SLAYERstringtoint = int(SLAYERstring)
 SLAYERstringtointinto3 = SLAYERstringtoint*3
-
-
-
 LAYERSstring = SLAYER1+SLAYER2+SLAYER3+SLAYER4+SLAYER5+SLAYER0
 LAYERSstringtoint = int(LAYERSstring)
-
-
-
 final = (LAYERSstringtoint == SLAYERstringtointinto3)
-
-
-
 print( str(LAYERSstringtoint) +" == "+ str(SLAYERstringtointinto3) + " -> " + str(final))
