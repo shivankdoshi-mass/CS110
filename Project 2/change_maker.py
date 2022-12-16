@@ -399,3 +399,5 @@ while True:
     elif k.isdigit() == False:      # checks if input is a number at all
         print("Invalid purchase price. Try again") 
         
+
+        
