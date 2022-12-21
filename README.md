@@ -1,2 +1,2 @@
 # CICS110
-Projects in Python for my intro CS class 
+Projects in Python from my intro CS class 
